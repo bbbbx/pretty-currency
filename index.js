@@ -1,6 +1,7 @@
 function prettyCurrency(input) {
-    if (typeof input !== 'number' || typeof input !== 'string' ) {
-        throw new TypeError('parameter must be a number.')
+    const type = typeof(input)
+    if (type !== 'number' && type !== 'string' ) {
+        throw new TypeError('parameter must be a number or string.')
     }
 
     let [ integer, decimal ] = input.toString().split('.')
@@ -9,7 +10,7 @@ function prettyCurrency(input) {
     if (!decimal) {
         return integer
     }
-    return integer + decimal
+    return integer + '.' + decimal
 }
 
 module.exports = prettyCurrency
