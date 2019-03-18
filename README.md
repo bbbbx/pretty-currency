@@ -26,6 +26,22 @@ console.log(num)  // '123,456.7899'
 
 Any PR is welcome!
 
+Before you submit your awesome PRs, please pass all tests first.
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run all test cases:
+
+```bash
+npm run test
+```
+
+If you have any edge test case, please let me know. ;)
+
 ## License
 
 MIT
