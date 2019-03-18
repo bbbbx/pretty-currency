@@ -1,0 +1,16 @@
+{
+  "name": "pretty-currency",
+  "version": "0.1.2",
+  "description": "format number or string to currency.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bbbbx/pretty-currency.git"
+  },
+  "keywords": [],
+  "author": "Venus <venus@venusworld.cn> (http://venusworld.cn)",
+  "license": "MIT"
+}
