@@ -28,10 +28,6 @@ describe('Integer', () => {
     test('-1234 should be "-1,234"', () => {
         expect(prettyCurrency(-1234)).toBe('-1,234')
     })
-
-    test('-0.1234 should be "-0.1234"', () => {
-        expect(prettyCurrency(-0.1234)).toBe('-0.1234')
-    })
 })
 
 describe('Float number', () => {
