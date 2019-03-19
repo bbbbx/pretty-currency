@@ -1,6 +1,6 @@
 {
   "name": "pretty-currency",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "format number or string to currency.",
   "main": "index.js",
   "scripts": {
