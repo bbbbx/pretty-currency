@@ -1,4 +1,4 @@
-const prettyCurrency = require('pretty-currency')
+const prettyCurrency = require('../dist/index')
 
 function invalidInput(input) {
     return () => prettyCurrency(input)
