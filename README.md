@@ -26,7 +26,7 @@
   console.log(num)  // '123,456.7899'
   ```
 
-  the parameter must be a number or string, if not, it will throw a TypeError, for example:
+  the parameter must be a number or string, otherwise, it will throw a TypeError, for example:
 
   ```js
   prettyCurrency({})     // Thrown: TypeError: parameter must be a number or string.
@@ -39,7 +39,7 @@
   prettyCurrency('1234.123forssa')  // '1,234.123'
   ```
 
-  if not, it will throw an Error, for example:
+  otherwise, it will throw an Error, for example:
 
   ```js
   prettyCurrency('ow1234.123qw')  // Thrown: Error: parameter is invalid.
@@ -55,7 +55,7 @@
   npm install
   ```
 
-  after patching `index.js`, you can build it:
+  after patched `index.js`, you can rebuild it:
 
   ```bash
   npm run build
@@ -67,7 +67,7 @@
   npm run test
   ```
 
-  Before you submit your awesome PRs, please passed all tests first.
+  Before you submit your awesome PRs, please passed all tests firstly.
 
   If you have any edge test case, please let me know. ;)
 
